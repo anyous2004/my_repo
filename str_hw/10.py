@@ -1,0 +1,5 @@
+a = input()
+s1 = a.replace(' (', '')
+s2 = s1.replace(') ', '')
+s = s2.replace('-', '')
+print(s)

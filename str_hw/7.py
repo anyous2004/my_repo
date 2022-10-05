@@ -1,0 +1,5 @@
+a = input()
+f, f1, f2 = a.split(' ')
+i = str(f1[:1] + '.')
+o = str(f2[:1] + '.')
+print(f, i + o)
